@@ -122,7 +122,6 @@ marshmallow-sqlalchemy
 matplotlib
 mdit-py-plugins
 mdurl
-mediapipe==0.10.21
 ml-dtypes
 more-itertools
 mpmath
