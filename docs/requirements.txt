@@ -42,7 +42,6 @@ croniter
 cryptography
 cycler
 cymem
-dbus-python
 deepface
 defusedxml
 Deprecated
