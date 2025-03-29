@@ -15,6 +15,14 @@ Subpackages
 Submodules
 ----------
 
+.. toctree::
+   :maxdepth: 4
+
+   src.read_cam
+   src.analysis
+   src.load_models
+
+
 src.main module
 ---------------
 
@@ -22,6 +30,8 @@ src.main module
    :members:
    :show-inheritance:
    :undoc-members:
+.. autoclass:: src.main.IPWebCam
+.. autofunction:: src.main.IPWebCam.get_frames_local_list    
 
 src.read\_image module
 ----------------------
@@ -51,6 +61,5 @@ Module contents
 ---------------
 
 .. automodule:: src
-   :members:
-   :show-inheritance:
-   :undoc-members:
+.. autoclass:: src.main.IPWebCam
+.. autofunction:: src.main.IPWebCam.get_frames_local_list 
