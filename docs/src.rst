@@ -4,9 +4,7 @@ Root Source DIR - docs/src.rst--v4
 README.md 
 ==========
 
-```{toctree}
-READ_ME.md
-
+```{toctree} READ_ME.md
 ```
 
 README.md 
@@ -43,10 +41,3 @@ src.util\_logger module
    :show-inheritance:
    :undoc-members:
 
-
-Module contents
----------------
-
-.. automodule:: src
-.. autoclass:: src.main.IPWebCam
-.. autofunction:: src.main.IPWebCam.get_frames_local_list 

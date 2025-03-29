@@ -46,6 +46,9 @@ extensions = [
     'sphinx.ext.napoleon',
             ]
 
+suppress_warnings = ["myst.header"]
+## TODO -- checkouts/latest/docs/READ_ME.md.rst:4: WARNING: Document headings start at H4, not H1 [myst.header]
+
 templates_path = ['_templates']
 exclude_patterns = []
 
