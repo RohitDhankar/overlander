@@ -1,5 +1,5 @@
-src package
-===========
+Root Source DIR - src
+=====================
 
 Subpackages
 -----------
@@ -8,6 +8,8 @@ Subpackages
    :maxdepth: 4
 
    src.read_cam
+   src.analysis
+   src.load_models
 
 Submodules
 ----------
