@@ -22,7 +22,8 @@ release = '0.1'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 """  
-'myst_parser',
+extensions = ["myst_parser"]
+
 'sphinx.ext.autodoc',
 'sphinx.ext.autosummary',
 'sphinx.ext.intersphinx',
@@ -36,7 +37,9 @@ release = '0.1'
 'sphinxcontrib.mermaid',
 
 """
+
 extensions = [
+    'myst_parser',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.viewcode',

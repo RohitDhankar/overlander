@@ -6,6 +6,7 @@ pandas
 pydantic
 pydantic_core
 setuptools
+myst-parser
 Sphinx
 sphinx-rtd-theme
 sphinxcontrib-applehelp

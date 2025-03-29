@@ -1,12 +1,34 @@
-Root Source DIR - docs/src.rst--v2
+Root Source DIR - docs/src.rst--v3
 ===================================
+
+this is a test for markdown 
+#### TILE - Header
+
+    - Soe text -- bold **bold--text**
+      - Italics text -- italics *italics*
+      - python code here 
+
+      ```python 
+
+      print("some-python-str")
+
+      ```
+
+## TILE - Header      
+
+#### TILE - Header
+
+<br/>
+
+
 
 Subpackages
 -----------
 
-.. automodule:: read_cam
-   :members:
-   :show-inheritance:
+.. toctree::
+   :maxdepth: 4
+
+   src.read_cam
 
 
 

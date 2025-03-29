@@ -1,6 +1,8 @@
 
-OverLander-INDEX.rst 
-====================
+OverLander-Documentation
+========================
+
+ 
 
 
 .. toctree::
@@ -10,8 +12,8 @@ OverLander-INDEX.rst
    modules
    
 
-Indices and Tables---INDEX.rst
-==============================
+Alphabetical Python Modules Index 
+=================================
 
 * :ref:`genindex`
 * :ref:`modindex`
