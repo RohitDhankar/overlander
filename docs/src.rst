@@ -1,50 +1,14 @@
 Root Source DIR - docs/src.rst--v3
 ===================================
 
-this is a test for markdown 
-#### TILE - Header
+```{toctree}
+READ_ME.md
 
-    - Soe text -- bold **bold--text**
-      - Italics text -- italics *italics*
-      - python code here 
-
-      ```python 
-
-      print("some-python-str")
-
-      ```
-
-## TILE - Header      
-
-#### TILE - Header
-
-<br/>
+```
 
 
-
-Subpackages
------------
-
-.. toctree::
-   :maxdepth: 4
-
-   src.read_cam
-
-
-
-Submodules
-----------
-
-.. toctree::
-   :maxdepth: 4
-
-   src.read_cam
-   src.analysis
-   src.load_models
-
-
-src.main module
----------------
+src/main.py 
+-------------
 
 .. automodule:: src.main
    :members:
@@ -52,7 +16,14 @@ src.main module
 .. autoclass:: src.main.IPWebCam
 .. autofunction:: src.main.IPWebCam.get_frames_local_list    
 
+src/read_cam/
+-------------
 
+.. automodule:: src.read_cam.read_webcam
+   :members:
+   :show-inheritance:
+.. autoclass:: src.read_cam.read_webcam.CV2VideoCapture
+.. autofunction:: src.read_cam.read_webcam.CV2VideoCapture
 
 src.util\_logger module
 -----------------------
@@ -61,6 +32,7 @@ src.util\_logger module
    :members:
    :show-inheritance:
    :undoc-members:
+
 
 Module contents
 ---------------
