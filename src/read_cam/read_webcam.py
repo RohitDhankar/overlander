@@ -1,6 +1,6 @@
 import cv2 , time , os 
 from datetime import datetime
-from huggingface_hub import hf_hub_download
+#from huggingface_hub import hf_hub_download ### TODO - for DOCS -- SPHINX 
 from ultralytics import YOLO
 from supervision import Detections
 from PIL import Image, ImageDraw
@@ -82,8 +82,11 @@ class CV2VideoCapture:
         """ 
         """
         # download model
-        model_path = hf_hub_download(repo_id="arnabdhar/YOLOv8-Face-Detection", filename="model.pt")
+        # TODO - for DOCS -- SPHINX 
+        model_path = ""
+        #model_path = hf_hub_download(repo_id="arnabdhar/YOLOv8-Face-Detection", filename="model.pt")
         print("----model_path--> %s" ,model_path)
+
         model_yolov8_face_detection = YOLO(model_path) # load model
         print("---model_yolov8_face_detection--> %s" ,type(model_yolov8_face_detection))
         return model_yolov8_face_detection

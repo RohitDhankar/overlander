@@ -1,21 +1,15 @@
-Root Source DIR - docs/src.rst
-==============================
+Root Source DIR - docs/src.rst--v1
+===================================
 
 Subpackages
 -----------
 
-
 .. toctree::
    :maxdepth: 4
    src.read_cam
-
-.. toctree::
-   :maxdepth: 4   
    src.analysis
-
-.. toctree::
-   :maxdepth: 4   
    src.load_models
+
 
 Submodules
 ----------
@@ -32,9 +26,6 @@ src.main module
 ---------------
 
 .. automodule:: src.main
-   :members:
-   :show-inheritance:
-   :undoc-members:
 .. autoclass:: src.main.IPWebCam
 .. autofunction:: src.main.IPWebCam.get_frames_local_list    
 
