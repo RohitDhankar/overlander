@@ -1,10 +1,20 @@
-Root Source DIR - docs/src.rst--v3
+Root Source DIR - docs/src.rst--v4
 ===================================
+
+README.md 
+==========
 
 ```{toctree}
 READ_ME.md
 
 ```
+
+README.md 
+----------
+
+```{literalinclude} READ_ME.md
+```
+
 
 
 src/main.py 
