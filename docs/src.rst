@@ -1,15 +1,19 @@
-Root Source DIR - src
-=====================
+Root Source DIR - docs/src.rst
+==============================
 
 Subpackages
 -----------
 
-
 .. toctree::
    :maxdepth: 4
-
    src.read_cam
+
+.. toctree::
+   :maxdepth: 4   
    src.analysis
+
+.. toctree::
+   :maxdepth: 4   
    src.load_models
 
 Submodules
