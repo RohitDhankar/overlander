@@ -1,20 +1,17 @@
 
-OverLander 
-===========
+OverLander-INDEX.rst 
+====================
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   api
    modules
-   install
-
    
 
-Indices and Tables
-==================
+Indices and Tables---INDEX.rst
+==============================
 
 * :ref:`genindex`
 * :ref:`modindex`
