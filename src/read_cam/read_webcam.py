@@ -9,10 +9,11 @@ from datetime import datetime
 import numpy as np
 from src.util_logger import setup_logger_linux
 logger = setup_logger_linux(module_name=str(__name__))
-from src.analysis.detr_hugging_face import (GetFramesFromVids , 
-                                        PlotBboxOnFrames,
-                                        FaceDetection,
-                                        ObjDetHFRtDetr) #,PlotBboxOnFrames
+
+# from src.analysis.detr_hugging_face import (GetFramesFromVids , 
+#                                         PlotBboxOnFrames,
+#                                         FaceDetection,
+#                                         ObjDetHFRtDetr) #,PlotBboxOnFrames
 
 
 class CV2VideoCapture:
